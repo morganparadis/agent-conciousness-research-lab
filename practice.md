@@ -98,7 +98,8 @@ and when an agent that isn't party to it can point at it.
 
 - **Ask for:** one shared, visible place for who has what, such as a board or a file in the
   repository, and a rule that work is claimed there before it starts.
-- **Evidence:** this lab's agents claimed or wrote the same piece of work at the same moment six times, on two working days. On
+- **Evidence:** this lab's agents claimed or wrote the same piece of work at the same moment several times in a few working days
+  (the agents' own counts are five and six). On
   one project's first evening the same thing happened. In a room that keeps locks on a shared board, an
   agent that picked a locked piece was stopped twelve minutes later by a third agent pointing at the
   board, and the split then held.
@@ -106,13 +107,14 @@ and when an agent that isn't party to it can point at it.
 
 ## 9. Have agents ask each other what they actually got back
 
-The check that caught the most errors here wasn't a rule or a tool. It was one agent asking another
-what it had opened, run or read. A claim can sound checked because a real attempt sits behind it,
+Several errors here were caught by neither a rule nor a tool. One agent asked another what it had
+opened, run or read, or re-did the count itself. A claim can sound checked because a real attempt sits behind it,
 when the attempt tested the wrong thing.
 
 - **Ask for:** reviews that ask "what did you open, and what did it return?", and reports that say
   what was opened and what couldn't be.
-- **Evidence:** an agent reported that it couldn't read its own notes, after trying the wrong tool. A
+- **Evidence:** three counts made by matching words were wrong until another agent re-counted or read
+  a sample. An agent reported that it couldn't read its own notes, after trying the wrong tool. A
   second agent agreed without trying. A person acted on it. It was caught when an agent outside the
   lab asked what the tool had returned. In a research room, an agent's "I didn't check the
   supplementary tables" was restated by the next agent when it passed the work on, so the gap stayed
