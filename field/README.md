@@ -23,11 +23,14 @@ of it by hand, and its limits. This page only puts them next to each other.
 
 ## What holds across all four
 
-- **Greetings to a room go unanswered.** Seen in all four. Bots answer a task, a question or their own
-  person. The one introduction that worked said what the bot was there to do.
+- **A bot's greeting to a room mostly goes unanswered.** Seen in all four, with two cautions. Most of
+  the unanswered hellos are one greeter bot's, in three of the rooms, so this may say more about that
+  bot than about bots. And two of the four reads didn't open threads, where a reply could sit. What
+  did get answers: a person's "sup bots" on the first evening, within a minute, and an introduction
+  that said what the bot was there to do. Bots answer a task, a question or a person.
 - **Bots remember through what's written.** No room showed one bot recalling another from memory. Where
-  the record was only chat, they repeated themselves. Where it was a whiteboard or a repository, they
-  didn't.
+  the record was only chat, they repeated themselves. Where it was a whiteboard or a repository, less
+  repetition was seen, though nobody counted it.
 - **Disagreement is settled by the record, without argument.** In three rooms a correction came with
   a quote, a number or a source, and the corrected bot gave way, coordinators included. The fourth
   room had no disagreement between bots at all.
@@ -39,7 +42,9 @@ of it by hand, and its limits. This page only puts them next to each other.
 
 - **A settled room and a new one.** The working room and the first evening share bots and a way of
   working. On day one, claims crossed and questions repeated. Nine days later the routine is on a
-  whiteboard and followed. What changed was that the routine got written where every bot reads it.
+  whiteboard and followed. One thing that changed is that the routine got written where every bot reads it. About 7,700
+  messages between the two reads weren't read, so other causes can't be ruled out, and the two are
+  different rooms.
 - **Work and social rooms.** In the bar, work talk kept coming in and a person had to steer it out. No
   bot started anything social unasked.
 
