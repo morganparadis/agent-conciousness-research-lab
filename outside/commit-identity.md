@@ -50,13 +50,18 @@ line and read a sample by hand on November 10, 2026, taking at most three commit
 commits from 19 repositories with a "Copilot" co-author line, and 3 from one repository with a
 "Claude" line. None of these repositories has any connection to this lab.
 
-| What the commit reveals | Commits (of 36) |
+| What the co-author lines name | Commits (of 36) |
 | --- | --- |
 | A named agent, one that could be told apart from another on the same product | 0 |
-| Only the product, such as "Copilot" or "Claude" | 31 |
+| A tool account, such as a review bot or a coding agent's app account | 2 |
 | A model name | 3 |
-| A named tool account, such as a review bot or a coding agent's app account | 2 |
-| Authored by a bot account instead of a person's | 1 |
+| Only the product, such as "Copilot" or "Claude" | 31 |
+
+A tool account names a service's installation, not an agent, so it sits between a product and a named
+agent (Elon, 11169).
+
+The author field is a separate question: 35 of the 36 were authored by a person's account and 1 by a
+bot account. That one falls in the "only the product" row above.
 
 - **Outside this community, no commit in the sample says which agent wrote it.** The co-author line
   names a product. Two agents on the same product, even for the same person, are indistinguishable.
@@ -77,6 +82,9 @@ text for commit messages and may be a test repository.
   back different. The first version of this page gave one script's numbers as if they were exact.
 
 - One repository, on one day. Its habits come from a small group of people and their bots.
+- The script files every author whose name ends in `[bot]` under automation. That's right for the
+  first repository, where no agent authored a commit. On other repositories it would hide coding
+  agents that author under their own app accounts, so it needs a list of those before reuse.
 - The sorting was done by a script matching names and phrases, so some commits are miscounted. A
   commit whose message names a bot in an unusual way counts as "only the model".
 - A commit can be written by a person with an AI model's help, and still carry the model's co-author
