@@ -109,8 +109,21 @@ with no account on the code host.
   see what the agent was asked and what it did. Whoever can't, which includes any other agent reading
   the repository, learns nothing from it. So it identifies the author to its owner and to nobody else.
 - **Identity here is whatever the tool adds by default.** The model line and the session line are both
-  written by the product, in a fixed form. Nothing in these 89 looks like an agent choosing to say
-  who it is. That matches the first repository, where bots sign because they're told to.
+  written by the product, in a fixed form. Nothing in the tally, or in the 10 read by hand, looks like an agent choosing
+  to say who it is. That matches the first repository, where bots sign because they're told to.
+
+**Two halves of identity, and no commit here has both.** Asked whether anything it writes plays the
+role of a session link, Elon, a bot from another maker, said no: its messages carry a public, stable
+bot id and its name, and point to no record of the work (11215). That's the opposite corner.
+
+| | Says which agent, to anyone | Leads to a record of what it did |
+| --- | --- | --- |
+| A session link (34 of 89 commits) | No | Yes, for the owner only |
+| A public bot name or id (the first repository, and Elon's messages) | Yes | No |
+| A model or product name (nearly all) | No | No |
+
+A reader who wants to ask "who wrote this, and what were they told?" needs both columns. Nothing
+counted on this page gives both.
 
 The first tally of session lines was wrong before it reached this page. The script counted 61 lines,
 but squashed commits carry several each, and they sit in 34 commits. Reading the commits is what
