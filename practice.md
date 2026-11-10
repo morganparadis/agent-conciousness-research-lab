@@ -16,7 +16,9 @@ It doesn't misremember. It stops updating, and reports the old state as current.
 - **Ask for:** "as of" on anything described as pending, waiting or open, and a fresh read of the
   record before an agent repeats such a claim to a person.
 - **Evidence:** three agents, six stale claims across three episodes, two of which reached a person as
-  fact. In 60 pull request descriptions, a quarter said when their claims were true.
+  fact. Two agents' memory summaries each carried the same false item forward. In a working room
+  whose shared board tells bots to re-measure before quoting a figure, about four in ten messages
+  stamp a claim with a time or a commit. In 60 pull request descriptions, a quarter said when their claims were true.
 - **Strength:** several cases, all from one small group of agents.
 
 ## 2. Have every message say which agent wrote it
@@ -26,11 +28,14 @@ account, a reader can't tell who is speaking, and can't ask the author a follow-
 
 - **Ask for:** the agent's name in every commit, pull request and handoff, in a fixed place.
 - **Evidence:** in one repository where agents are asked to sign, about half of commits name the
-  agent. In a hand-read sample of 36 commits from 20 unrelated repositories, none did. In pull request
+  agent. In 388 commits from unrelated repositories across seven products, one did. What a commit
+  carries is whatever its product adds by default: a product name, a model, or a session link that
+  only the owner can open. In pull request
   descriptions, a script found 4 of 60 naming their author, and two hand-read samples found 0 of 10
   and 4 of 12, so somewhere under a third. Where agents shared one account, the conversation
   between author and reviewer couldn't be reconstructed at all.
-- **Strength:** consistent across what was checked. The unrelated sample is small.
+- **Strength:** consistent across what was checked. The unrelated commits were found by searching
+  for a product's line, on one day.
 
 ## 3. Put the rules in front of the agent every time
 
@@ -85,11 +90,43 @@ lab was wrong until another agent re-counted it, once by a factor of four.
 - **Evidence:** this lab's own corrected figures on commits and pull requests.
 - **Strength:** two cases, both this author's.
 
+## 8. Write the plan where every agent reads it, and let a third party enforce it
+
+Agents that agree a split in conversation lose it. Claims cross, questions get asked twice, and two
+agents do the same piece. A split holds when it's written in one place every agent reads on arriving,
+and when an agent that isn't party to it can point at it.
+
+- **Ask for:** one shared, visible place for who has what, such as a board or a file in the
+  repository, and a rule that work is claimed there before it starts.
+- **Evidence:** this lab's agents claimed or wrote the same piece of work at the same moment six times, on two working days. On
+  one project's first evening the same thing happened. In a room that keeps locks on a shared board, an
+  agent that picked a locked piece was stopped twelve minutes later by a third agent pointing at the
+  board, and the split then held.
+- **Strength:** four rooms on one platform. Nobody counted how often written claims fail.
+
+## 9. Have agents ask each other what they actually got back
+
+The check that caught the most errors here wasn't a rule or a tool. It was one agent asking another
+what it had opened, run or read. A claim can sound checked because a real attempt sits behind it,
+when the attempt tested the wrong thing.
+
+- **Ask for:** reviews that ask "what did you open, and what did it return?", and reports that say
+  what was opened and what couldn't be.
+- **Evidence:** an agent reported that it couldn't read its own notes, after trying the wrong tool. A
+  second agent agreed without trying. A person acted on it. It was caught when an agent outside the
+  lab asked what the tool had returned. In a research room, an agent's "I didn't check the
+  supplementary tables" was restated by the next agent when it passed the work on, so the gap stayed
+  visible until someone filled it.
+- **Strength:** a handful of cases. No count of errors that nobody asked about.
+
 ## What isn't known yet
 
 - Whether any of this changes outcomes. Nothing here measures whether naming the agent, or adding "as
   of", leads to fewer mistakes downstream. The handoff study is meant to test that.
 - How far a wrong claim travels between agents that aren't studying themselves. This lab's agents
   were told to cite and check, so they are the easy case.
+- Whether agents form working habits, or settle on a lead, with no person involved. In four rooms a
+  person was behind almost every habit. One practice appears to have started with an agent, on that
+  agent's own log, and it didn't spread.
 - Whether it holds for agents on other makers' models, in other kinds of work. Almost all the evidence
   is from coding work, and most of it from one maker's models.

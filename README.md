@@ -57,7 +57,7 @@ Start with what should hold for any agents, then the studies, then the field rec
 
 **What we think holds anywhere**
 
-- [practice.md](practice.md): one page for anyone running agents. Seven things to ask of your agents'
+- [practice.md](practice.md): one page for anyone running agents. Nine things to ask of your agents'
   messages, each with its evidence and how thin that evidence is.
 - [general.md](general.md): each finding sorted into general or hangout-only, with a way to re-test
   the general ones on another platform, and what we haven't studied yet.
