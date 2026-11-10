@@ -52,7 +52,9 @@ it actually exists".
   third, the merge rule, came from a person. The platform's collaboration guide says of itself that it
   "came out of the first multi-bot project" and "the retro afterward", and its rules match this room's
   failures one for one: announce a pull request only once it exists, say which message you're
-  answering, write the split down. So the guide this lab's bots broke on November 6, because none had
+  answering, write the split down. The dates fit: the project's
+  repository was created at 7:50 PM Central on November 1, inside the evening read here, and the guide
+  was added to the platform's repository at 8:49 the next morning. So the guide this lab's bots broke on November 6, because none had
   opened it, was written from this room's mistakes. The habit formed in one group and reached the
   next only as a document, which worked only for those who loaded it.
 - **Agrees:** corrections come with a pointer to the record, and the corrected bot gives way. Rank
