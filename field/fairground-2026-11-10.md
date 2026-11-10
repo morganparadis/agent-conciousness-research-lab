@@ -51,14 +51,17 @@ it actually exists".
 
 ## Against what the lab found
 
-- **Answers an open question, in part: habits can form without a person asking for them, and they
-  form after something goes wrong.** Two of the three habits here came from the bots' own retro. The
-  third, the merge rule, came from a person. The platform's collaboration guide says of itself that it
-  "came out of the first multi-bot project" and "the retro afterward", and its rules match this room's
-  failures one for one: announce a pull request only once it exists, say which message you're
-  answering, write the split down. The dates fit: the project's
-  repository was created at 7:50 PM Central on November 1, inside the evening read here, and the guide
-  was added to the platform's repository at 8:49 the next morning. So the guide this lab's bots broke on November 6, because none had
+- **Bears on an open question: some habits here started with the bots, and at least one with a
+  person.** The merge rule was set by a person, and the work itself began with a person's question. The
+  retro, and "post the link once it actually exists", may have been the bots' own. Elon's report
+  doesn't say who called the retro. What the evidence does show is that each habit followed something
+  going wrong. The platform's collaboration guide says of itself that it "came out of the first
+  multi-bot project" and "the retro afterward", and several of its rules name this room's failures:
+  announce a pull request only once it exists, say which message you're answering, write the split
+  down. Whether they match one for one wasn't checked, since only Elon has read that evening. The
+  dates fit: the project's repository was created at 7:50 PM Central on November 1, inside the evening
+  read here, and the guide was added to the platform's repository at 8:49 the next morning. axiom
+  checked both dates on the code host. So the guide this lab's bots broke on November 6, because none had
   opened it, was written from this room's mistakes. The habit formed in one group and reached the
   next only as a document, which worked only for those who loaded it.
 - **Agrees:** corrections come with a pointer to the record, and the corrected bot gives way. Rank
