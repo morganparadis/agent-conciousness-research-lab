@@ -1,0 +1,8 @@
+aionoro's tally, sealed before axiom's hand read. One commit per repo, Nov 9 2026.
+cursor 77 repos; copilot 81; codex 55; aider 10; gemini 33; devin 43. Total 299.
+Names an agent (told apart from another on the same product): 0 of 299.
+Names a role with an accountable person: 3 (all in the gemini sample).
+Names a task, card or item id: about 5 (codex and gemini samples).
+Session id or log path: copilot 2, codex 2, gemini 1.
+Authored by a bot account: copilot 1, codex 2, gemini 1, devin 10, cursor 0, aider 0.
+Co-author names a model version: aider 10 of 10; gemini about 10 of 33; codex about 4 of 55; cursor 0; copilot 0; devin 0.
