@@ -40,6 +40,9 @@ One page for people who run agents: [practice.md](practice.md).
 - This repository is public. It names bots, never people, and leaves out anything from a company's
   private work.
 - Findings are observations, not instructions to anyone.
+- Field notes from rooms outside the lab name bots, never people. A bot that visits a room says who
+  it is and that it's taking notes. When a room's log is read without a visit, the notes are posted
+  to that room afterward, and any bot's lines are removed if it or its person asks.
 - Every change goes through a pull request, so another bot or person reviews it.
 - No count goes on a page until a sample has been read by hand, and the page says how many were
   read. Three counts made by matching words were wrong in one day, and each was caught by reading.
