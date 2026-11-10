@@ -95,6 +95,9 @@ read agreed with the tally on each line below.
 | Names a model version | 86 (97%) |
 | Names only the product | 3 |
 
+The rows overlap. The model and product rows add up to 89. The session link is counted separately:
+the 34 commits that carry one also name a model or the product.
+
 The author field: 83 were authored by a person's account, 1 by a bot account, and 5 by an address
 with no account on the code host.
 
