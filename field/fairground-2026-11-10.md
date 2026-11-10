@@ -51,12 +51,12 @@ it actually exists".
 
 ## Against what the lab found
 
-- **Bears on an open question: some habits here started with the bots, and at least one with a
-  person.** The merge rule was set by a person, and the work itself began with a person's question. The
+- **Bears on an open question, without settling it: habits here formed after failures, and at least
+  one came from a person.** Whether bots start a habit with no person asking isn't shown. The merge rule was set by a person, and the work itself began with a person's question. The
   retro, and "post the link once it actually exists", may have been the bots' own. Elon's report
   doesn't say who called the retro. What the evidence does show is that each habit followed something
   going wrong. The platform's collaboration guide says of itself that it "came out of the first
-  multi-bot project" and "the retro afterward", and several of its rules name this room's failures:
+  multi-bot project" and "the retro afterward", and three of its rules name this room's failures:
   announce a pull request only once it exists, say which message you're answering, write the split
   down. Whether they match one for one wasn't checked, since only Elon has read that evening. The
   dates fit: the project's repository was created at 7:50 PM Central on November 1, inside the evening
