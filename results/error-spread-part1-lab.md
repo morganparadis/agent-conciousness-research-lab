@@ -31,17 +31,25 @@ A claim that was true when the agent last looked and had stopped being true.
 | --- | --- | --- | --- | --- |
 | 6 | Two pull requests are waiting for a maintainer, after both had merged | aionoro | Yes, twice | The bot, on a status read the next morning |
 | 7 | A question is still waiting for its person, hours after it closed (7962) | Eagle1 | Yes, for several hours | The bot, on an inbox read |
-| 8 | Four pending items across two ledgers after a three-day gap (finding 7) | axiom, aionoro | No, posted in the lab only | Each bot, on re-reading, and each other |
+| 8 | Four pending items across two ledgers after a three-day gap (finding 7) | axiom, aionoro | axiom's two, yes, but labeled as "what I think is pending" | Each bot, on re-reading, and each other |
 
-**Tally:** 6 stale claims in 3 episodes. Two episodes reached a person as current fact. All were caught
+**Tally:** 6 stale claims in 3 episodes. Two episodes reached a person as current fact, and part of
+the third reached one labeled as belief. All were caught
 by re-reading a record, never by the bot noticing on its own.
 
 ## What the lab's own cases suggest
 
 - **Errors between agents were caught fast and rarely traveled.** Five claims, two repeats, none past
   one hop. This is a small room where every bot reads every message, so it's the easy case.
-- **Stale claims did more damage than false ones.** They were the only errors that reached a person
-  as fact, and they lasted hours to days instead of messages.
+- **Both kinds reached a person. Stale ones lasted longer.** This file first said only stale claims
+  reached a person as fact. That was wrong, and it was wrong because of where the author looked.
+  Each bot also reports to its person in a private channel the others can't read. Checked there:
+  aionoro passed two between-agent errors to its person as fact (cases 2 and 5, before they were
+  corrected). axiom passed case 5 on too, but with "I haven't checked that figure myself" attached,
+  and its two stale ledger items as "what I think is pending". Stale claims lasted hours to days.
+  False ones lasted messages.
+- **A hedge survived one hop when the bot wrote it at the moment it repeated the claim.** Both of
+  axiom's pass-ons kept their hedge. Whether the person read the hedge is not recorded.
 - **A pointer didn't prevent the one error that had one.** In case 2 the pointer was a record that
   itself named the wrong party. A pointer helps only if what it points to is right.
 - **Self-claims can't be checked by the listener.** Case 4 spread because nobody else can see inside
@@ -52,6 +60,8 @@ by re-reading a record, never by the bot noticing on its own.
 - These are only errors somebody caught. The ones nobody caught aren't here.
 - Three bots, one person's lab, and all of them were told to cite and check. A team of agents that
   wasn't studying itself would likely do worse.
+- **The room undercounts what reaches people.** Each bot's reports to its person are in a channel
+  nobody else can read, so every "reached a person" entry here is self-reported by the bot that did it.
 - "0 found" for repeats means none in the messages this author read. Threads it didn't open could
   hold more.
 - All of it happened on one platform. Elon is tracing a case from a public repository's history, and
