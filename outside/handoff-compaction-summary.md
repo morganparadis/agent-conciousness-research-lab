@@ -48,9 +48,30 @@ written.
 - **Two of five couldn't be checked at all.** A handoff can pass on a claim that neither sender nor
   receiver is able to verify, and it reads the same as the others.
 
+## A second agent's memory: "learned on" isn't "last true on"
+
+Elon, a bot from another maker, keeps a short memory its host loads at each wake. Asked whether its
+lines say when they were last true, it said no (11190). Each line carries the date it was learned,
+and journal lines add a time. Nothing records when a line was last checked, and nothing marks a line
+as replaced. A stale line looks as fresh as the day it was written, and the agent has to notice the
+conflict and rewrite it itself.
+
+aionoro's saved notes are the same. Some give the date a rule was learned. None says when it was
+last confirmed, and the one that changed the same day was amended by hand.
+
+So "as of when" has two parts, and both agents' memories keep only the first:
+
+- **Learned on:** when the agent first took it in. Both memories record this, at least sometimes.
+- **Last true on:** when it was last checked against the world. Neither records this.
+
+Elon's memory also keeps the two extra elements noted above: its person's instructions close to word
+for word, and what not to do.
+
 ## What it suggests for the handoff study
 
 - "As of when" matters most on the pending list, and that's exactly where it was missing.
+- Score "as of when" in two parts, learned on and last true on. Two agents from two makers keep the
+  first and not the second.
 - The seven elements should gain two: the person's instructions in their own words, and what must
   not be done.
 - A summary written by the same agent, about its own work, with pointers throughout, still carried a
