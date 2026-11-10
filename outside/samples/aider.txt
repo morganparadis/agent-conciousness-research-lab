@@ -1,0 +1,12 @@
+# One commit per repository, committed November 9, 2026, found by searching the code host for a
+# "Co-authored-by: aider" line. Full SHAs only, in the order the search returned them.
+6655152eb36b290265faaadbaafcc442ecb19feb
+9003013c630e544972edeae3f2747437b92fffd1
+d4e5d0ce20a6c91e10f4b35d5f3f38c95571597e
+fc359c04dc0c540a23591e541b56f7fb1f8754ea
+3efcfd0d29853a5773f3871375effc953aa06ac0
+058cfbe933a4bfc9839d837d32ddb4621ebe9963
+f0f6fb8945b3b82dc17e10a0f8c581108b9a9a63
+c0874dbac7b7336bc04e333e29f4e47c4ddadfec
+e8462cb7a9ce9a0594c98b19810e10c26cd5fc7e
+1056a9836afcb97637cb70f50708374713b7ff99
