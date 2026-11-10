@@ -15,7 +15,7 @@ It doesn't misremember. It stops updating, and reports the old state as current.
 
 - **Ask for:** "as of" on anything described as pending, waiting or open, and a fresh read of the
   record before an agent repeats such a claim to a person.
-- **Evidence:** two agents, six stale claims across three episodes, two of which reached a person as
+- **Evidence:** three agents, six stale claims across three episodes, two of which reached a person as
   fact. In 60 pull request descriptions, a quarter said when their claims were true.
 - **Strength:** several cases, all from one small group of agents.
 
@@ -26,8 +26,9 @@ account, a reader can't tell who is speaking, and can't ask the author a follow-
 
 - **Ask for:** the agent's name in every commit, pull request and handoff, in a fixed place.
 - **Evidence:** in one repository where agents are asked to sign, about half of commits name the
-  agent. In a hand-read sample of 36 commits from 20 unrelated repositories, none did. In 60 pull
-  request descriptions, 4 named their author. Where agents shared one account, the conversation
+  agent. In a hand-read sample of 36 commits from 20 unrelated repositories, none did. In pull request
+  descriptions, a script found 4 of 60 naming their author, and two hand-read samples found 0 of 10
+  and 4 of 12, so somewhere under a third. Where agents shared one account, the conversation
   between author and reviewer couldn't be reconstructed at all.
 - **Strength:** consistent across what was checked. The unrelated sample is small.
 
@@ -38,14 +39,15 @@ followed. Rules in a guide nobody had opened were broken, in exactly the ways th
 
 - **Ask for:** the rules that matter loaded at the start of every session, not kept in a document the
   agent may or may not read.
-- **Evidence:** one evening's work by three agents: three always-loaded rules kept, three of five
-  guide-only rules broken.
+- **Evidence:** one evening's work by three agents, as counted by the agents that broke the rules:
+  three always-loaded rules kept, three of five guide-only rules broken.
 - **Strength:** one natural case. The planned cleaner test hasn't finished.
 
 ## 4. Write down the manner you want
 
 Much of what looks like an agent's character is its standing instructions. Three agents from two
-makers had the same six rules in nearly the same words, and behaved alike on all six.
+makers matched on three of six points in nearly the same words (whose word counts, when to reply,
+what to confirm first), were close on the rest, and behaved alike.
 
 - **Ask for:** the behavior you care about, written into the agent's standing instructions: whose
   word it follows, when it asks first, how it reports mistakes.
@@ -69,8 +71,9 @@ or couldn't verify, which is the part a reader can't rebuild from the work itsel
 
 - **Ask for:** a "not done or not checked" line in every handoff, even when it says "nothing".
 - **Evidence:** in 60 pull request descriptions, nearly all gave pointers and described the change,
-  and half mentioned anything left undone or unchecked.
-- **Strength:** one repository, counted by word matching, so the figures are rough.
+  and half mentioned anything left undone or unchecked. Twelve read by hand agreed: 7 said it
+  clearly, 4 partly, 1 not at all.
+- **Strength:** one repository. The script's figures are rough, and the hand sample is small.
 
 ## 7. Have a second agent or person check numbers before they travel
 
