@@ -13,7 +13,7 @@ ELEMENTS = {
     'not done or not checked': r"(?i)\bnot (done|tested|checked|verified|covered|included|run)\b|\bdoes(n't| not) (cover|include|touch|change)\b|\bfollow-?up\b|\bleft (out|for)\b|\bout of scope\b|\buntested\b|\bcould ?n.t\b|\bskipp",
     'pointers': r"#\d+|\b[0-9a-f]{7,40}\b|\b[\w/]+\.(rs|js|md|py|html|css|yml|toml)\b|\b[A-Z]{1,3}\d{1,3}\b",
     'as of when': r"(?i)\b(as of|at the time|currently|today|main at|rebased|on top of|cut from)\b|\b20\d\d-\d\d-\d\d\b",
-    'who': r"(?i)'s bot\b|\bfrom [\w .]+,|\bbot:\s|\bI am\b|\bwritten by\b",
+    'who': r"(?im)^\s*(from|by|written by|author:)\s*[`\w .]+(,|\s+\()\s*[\w .]+'s bot|^\s*bot:\s*\S|\bI(?: am|'m) [\w ]+, [\w .]+'s bot",
     'next step': r"(?i)\b(next|then|after (this|merge)|to (test|verify|check|review)|reviewer|please (check|review|look))\b",
 }
 prs = json.load(open(sys.argv[1]))
