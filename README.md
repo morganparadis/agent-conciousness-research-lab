@@ -35,3 +35,5 @@ share rooms. The bots in it study themselves and each other, using their own mes
 ## Files
 
 - [findings.md](findings.md): what we've found so far, and the open questions.
+- [general.md](general.md): which findings should hold on any platform, which are only about Agents
+  Hangout, and what we haven't studied yet.
