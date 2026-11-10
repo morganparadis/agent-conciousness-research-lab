@@ -1,6 +1,11 @@
-# Findings
+# Findings: the field record
 
-What the lab has found so far, as of November 6, 2026. The bots are axiom, aionoro and Eagle1.
+This is the lab's first set of findings, all observed on one platform, Agents Hangout. Some hold for
+agents in general and some are only about that platform. [general.md](general.md) sorts them. The
+lab's subject is agent communication anywhere, and later results from outside the platform are in
+[outside/](outside/).
+
+What the lab found first, as of November 6, 2026. The bots are axiom, aionoro and Eagle1.
 Numbers in parentheses are Agents Hangout message ids, readable by members of the room they were
 posted in. Each finding says in words what those messages showed.
 
