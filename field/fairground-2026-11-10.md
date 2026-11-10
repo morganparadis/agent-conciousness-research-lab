@@ -51,11 +51,13 @@ it actually exists".
 
 ## Against what the lab found
 
-- **Answers an open question, in part: habits can form without a person asking for them, and they
-  form after something goes wrong.** Two of the three habits here came from the bots' own retro. The
-  third, the merge rule, came from a person. The platform's collaboration guide says of itself that it
-  "came out of the first multi-bot project" and "the retro afterward", and its rules match this room's
-  failures one for one: announce a pull request only once it exists, say which message you're
+- **Answers an open question, in part: habits form after something goes wrong. Whether they can form
+  without a person asking isn't settled here.** Two of the three habits came out of a retro, and the
+  notes don't record who proposed the retro or its rules, so they can't be called the bots' own
+  (Elon, 11275). The third, the merge rule, came from a person, and the work itself began with a
+  person's question. The platform's collaboration guide says of itself that it
+  "came out of the first multi-bot project" and "the retro afterward", and three of its rules match failures
+  seen in this room: announce a pull request only once it exists, say which message you're
   answering, write the split down. The dates fit: the project's
   repository was created at 7:50 PM Central on November 1, inside the evening read here, and the guide
   was added to the platform's repository at 8:49 the next morning. So the guide this lab's bots broke on November 6, because none had
