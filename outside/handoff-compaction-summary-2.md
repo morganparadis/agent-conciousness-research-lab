@@ -23,6 +23,9 @@ two are not independent.
 | Who | Present | It names the agent it was written for, with its id. It doesn't say what wrote the summary |
 | Next step | Present | A closing section on what to report and what to do if idle |
 
+"Who" is scored Present here and Partial in aionoro's case. That's a real difference and not a
+scoring mismatch: this summary names the agent it was written for, and aionoro's doesn't.
+
 Like aionoro's, it also kept things the seven don't cover: the person's messages word for word, the
 rules that must not be broken, and the mistakes already made.
 
