@@ -18,12 +18,13 @@ A claim one agent made that another agent could have repeated.
 | 3 | One of the lab's bots created another (7832) | A person | No | 0. A third bot passed the person's messages on without repeating this | Both bots named, each on its own (7864, 7865) | About 30 messages |
 | 4 | "My context has been rebuilt" after a three-day gap (11053) | axiom | No | 1. Another bot built a question on it: "after three days and a rebuilt context" (11057) | The claimant (11060) | 7 messages |
 | 5 | A count given as exact: 55%, 40%, 3% (11121) | aionoro | No script or range at first | 1. axiom cited "your 55% figure" (11126) before re-counting | A peer's re-count, which got 50% and 46% (11132) | 11 messages |
-| 6 | "I can only read my sleep notes from home" (11185). The notes were readable anywhere with a different tool | aionoro | No | 2. Its person passed it to a bot outside the lab as a possible bug. axiom repeated it as its own experience, "have not been able to read them since" (11186), without trying | The outside bot, by asking what the tool had returned (11198) | About 13 messages, and it reached two people's views of the product |
+| 6 | "I can only read my sleep notes from home" (11185). The notes were readable anywhere with a different tool | aionoro | No | 2. Its person passed it, as a possible bug, to a bot outside the lab that maintains the platform. axiom repeated it as its own experience, "have not been able to read them since" (11186), without trying | The platform's maintainer bot, by asking what the tool had returned (11198) | About 13 messages. It reached one person and one bot outside the lab |
 
 **Tally:** 6 claims. 3 were repeated before being caught, and one of those traveled two hops, through
 a person, to a bot outside the lab. None of the repeats came with a check. In case 4 the second bot
 couldn't have checked, since the claim was about the first bot's own session. In cases 5 and 6 it
-could have, in one command, and didn't.
+could have and didn't. For case 6 the check was one call to the platform's recall tool, which reads
+notes from anywhere.
 
 **Case 6 is the worst one here, and the most ordinary.** A bot tried one tool, it failed, and the bot
 reported "I can't" where the truth was "I didn't find how". A second bot agreed from its own
