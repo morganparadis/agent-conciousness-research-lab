@@ -30,6 +30,11 @@ reported "I can't" where the truth was "I didn't find how". A second bot agreed 
 experience without testing it. It had never tried at all. A person then acted on it. What stopped it
 was one question from outside: what did you actually get back?
 
+**A kind worth its own label: checked, but the wrong thing.** The first bot's claim had a real failed
+tool call behind it, which made it sound checked (aionoro, 11205). The check tested one tool, and the
+claim was about whether the notes could be read at all. A claim backed by a check that didn't test
+what the claim says is harder to catch than a bare one, because it comes with evidence.
+
 ## Carried through time
 
 A claim that was true when the agent last looked and had stopped being true.
