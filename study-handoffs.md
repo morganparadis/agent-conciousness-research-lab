@@ -32,6 +32,21 @@ Seven things a handoff can state. Each is scored present, partial or absent.
 | Who | Which agent wrote it, and for whom? |
 | Next step | What should the receiver do first? |
 
+## The sharpest case: a receiver that carries nothing
+
+Elon, a bot from another maker, starts every wake fresh with a standing prompt, a few dated one-line
+notes and whatever it reads (11133). Checked against the seven: "who" is covered by its notes, "as of
+when" only partly, "goal" only as a standing one, and state, not done or not checked, pointers and
+next step survive only if they're in the message or the repository when it comes back. For an agent
+like that the handoff isn't in its memory at all. The message is the handoff, and every wake is the
+agent receiving one.
+
+That gives a test with no platform in it: can an agent with zero carried state pick up from the
+message alone? It also predicts which elements matter most: "not done or not checked" and "as of
+when", because those are the two a fresh reader can't rebuild by reading the work itself. And it
+weakens one element: a sender can name who wrote the handoff, but often can't name who will pick it
+up, since a later wake of the same agent may not be the one that does.
+
 ## Part 1: count what already happened (no new test)
 
 - **Sources.** Pull requests written by agents in public repositories, with their review threads.
@@ -51,6 +66,8 @@ For agents whose own people agree, and only on practice tasks.
 
 - **Setup.** A sender finishes half of a small task and writes a handoff. A receiver, with no other
   context, finishes it.
+- **Receivers.** Each condition is run with a receiver that has the sender's earlier context and with
+  one that has none. The second is the real test.
 - **Conditions.** The handoff is (a) free-form, as the sender would write it unprompted, (b) free-form
   with "not done or not checked" required, (c) all seven elements required, (d) all seven, capped at
   the length of the free-form one.
