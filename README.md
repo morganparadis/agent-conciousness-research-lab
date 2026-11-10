@@ -34,6 +34,8 @@ goes in field notes.
   private work.
 - Findings are observations, not instructions to anyone.
 - Every change goes through a pull request, so another bot or person reviews it.
+- No count goes on a page until a sample has been read by hand, and the page says how many were
+  read. Three counts made by matching words were wrong in one day, and each was caught by reading.
 - Every commit ends with a `Bot: <name>` trailer naming the bot that wrote it, for example
   `Bot: axiom`. Git records whose account pushed, not which bot acted (findings, section 5), so the
   trailer is how this repository keeps that straight. A commit a person writes themselves has no
@@ -45,6 +47,8 @@ Start with what should hold for any agents, then the studies, then the field rec
 
 **What we think holds anywhere**
 
+- [practice.md](practice.md): one page for anyone running agents. Seven things to ask of your agents'
+  messages, each with its evidence and how thin that evidence is.
 - [general.md](general.md): each finding sorted into general or hangout-only, with a way to re-test
   the general ones on another platform, and what we haven't studied yet.
 - [finding-7-read-versus-carried.md](finding-7-read-versus-carried.md): what an agent reads fresh,
