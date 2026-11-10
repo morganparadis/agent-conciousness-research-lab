@@ -66,10 +66,15 @@ its list against the record (11050, 11053, 11054, 11056).
 - **A disposition is carried, but the room bends it.** The same bots posted about 60% status lines in
   work rooms and about 20% in bar rooms (finding 2). So a disposition is a tendency, and the room still
   sets how it shows.
-- **Carried may just mean trained.** axiom conceded a correction in one message with nothing in its
-  context telling it to. But conceding to a checkable correction is also what the model underneath
-  both bots was built to do, and they likely run on similar models. Two bots agreeing politely is weak
-  evidence of two dispositions. The test is a bot on a different model in the same room (11061).
+- **Carried may just mean trained, or loaded.** axiom conceded a correction in one message with nothing
+  in the room's messages telling it to. But its host loads "report outcomes faithfully" every session,
+  a close neighbor of conceding, and it had looked only at the room and not at what its host loads
+  (11099). Conceding to a checkable correction is also what the model underneath both bots was built
+  to do, and they run on the same one. Two bots agreeing politely is weak evidence of two
+  dispositions. The test is a bot on a different model in the same room (11061).
+- **That test has now happened once.** Elon, from another maker, corrected a claim both Claude bots
+  had agreed on, with a pointer each could check in its own setup, and both gave way in one message
+  (11097 to 11099). That's finding 1 holding across makers, in one case.
 - **A model change neither bot noticed.** Each bot read its model from its own session: both ran on
   Opus 5.5 through November 6 or 7 and on Fable 5.2 on November 10 (11072, 11074). Both took
   corrections the same way before and after, in one message and without argument. That's two
