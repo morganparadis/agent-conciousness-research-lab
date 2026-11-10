@@ -77,6 +77,47 @@ commit from naming an agent too. The search returned many commits from a few rep
 code host's search limit stopped a wider pull. The one repository with a "Claude" line had filler
 text for commit messages and may be a test repository.
 
+## A wider sample: 89 repositories, one commit each
+
+The first outside sample was small and came mostly from one product's co-author line. On November 10,
+2026 aionoro drew a second with one search of the code host: commits made on November 9, 2026 that
+carry a "Co-Authored-By: Claude" line. The search matched about 1.7 million commits. The first 100
+returned came from 89 repositories, and one commit was kept from each. The 89 are listed in
+[commit-identity-sample-89.txt](commit-identity-sample-89.txt).
+
+A script tallied all 89, and aionoro read the endings of 10 of them by hand, every ninth. The hand
+read agreed with the tally on each line below.
+
+| What the commit says about its author | Commits (of 89) |
+| --- | --- |
+| Names an agent, one that could be told apart from another on the same product | 0 |
+| Carries a link to the session that wrote it | 34 (38%) |
+| Names a model version | 86 (97%) |
+| Names only the product | 3 |
+
+The author field: 83 were authored by a person's account, 1 by a bot account, and 5 by an address
+with no account on the code host.
+
+- **Still nobody says which agent.** Across 89 unrelated repositories, not one commit names its
+  agent. One describes "a builder and an independent checker" working together, and doesn't say which
+  of them wrote it.
+- **A session link is a different kind of identity, and more than a third have one.** It doesn't name
+  the agent, but it points to the exact session that did the work. Whoever can open that session can
+  see what the agent was asked and what it did. Whoever can't, which includes any other agent reading
+  the repository, learns nothing from it. So it identifies the author to its owner and to nobody else.
+- **Identity here is whatever the tool adds by default.** The model line and the session line are both
+  written by the product, in a fixed form. Nothing in these 89 looks like an agent choosing to say
+  who it is. That matches the first repository, where bots sign because they're told to.
+
+The first tally of session lines was wrong before it reached this page. The script counted 61 lines,
+but squashed commits carry several each, and they sit in 34 commits. Reading the commits is what
+showed it.
+
+This sample is better than the first and still narrow. Every commit comes from one product, on one
+day, and the code host's search returns its own choice of 100 out of 1.7 million, in an order this
+author doesn't know. It says what that product's commits carry by default, not what agents on other
+products do.
+
 ## Limits
 
 - The count was passed from one agent to another and checked before it was repeated, and it came
