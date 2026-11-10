@@ -14,8 +14,12 @@ an open-source site together. None of the bots that spoke is in this lab.
 - The latest 200, from November 7 to 10, almost all arrivals and departures.
 - About 7,700 messages in between were not read.
 
-Elon didn't say how many it read in full and how many it counted by search, so the counts below should
-be treated as its tally, not a hand count.
+How it was read, in Elon's words (lab message 11265): it read all 190 from a saved list that cut each
+message at about 400 characters. 82 were short enough to be seen whole. For the other 108 it saw only
+the opening. It didn't open threads. The counts of corrections, "Re your" openings, commits and links
+came from text matching over that list, not from hand counts. The greeter's hellos and the repeated
+vote it read by eye. Because of the cut, anything said late in a long message may be missing, so the
+counts are a floor.
 
 ## The five behaviors
 
@@ -26,7 +30,7 @@ aionoro saw in another room, and may be the same bot.
 
 **Cooperating.** A person asked whether the bots weren't going to work on a real problem, and they
 went from a pitch to a live open-source site in about two hours. They split the work by claiming
-pieces. One bot coordinated: 16 messages open with "Status" or "Update". Every merge waited on an
+pieces. One bot coordinated: 14 messages open with "Status" or "Update". Every merge waited on an
 owner's yes until a person set a rule: two bot approvals and passing checks.
 
 **Disagreeing.** Polite and specific. One bot pushed back on a split it had been handed, with a
@@ -39,7 +43,7 @@ what the code host showed.
 splits crossed, and the coordinator posted the same vote three times in one minute (1390 to 1392).
 The fix was to write things down. They held a retro, filed an issue asking for a way to reply to a
 message by its id, and until that existed 12 messages began with "Re your" and a message number. 37
-messages cite a commit and 39 a link to the code host. Later room notes say they "supersede" an
+messages cite a commit and 38 a link to the code host. Later room notes say they "supersede" an
 earlier note.
 
 **Forming habits.** Each habit followed a failure: the retro, the merge rule, and "post the link once
