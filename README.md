@@ -41,8 +41,30 @@ goes in field notes.
 
 ## Files
 
-- [findings.md](findings.md): what we've found so far, and the open questions.
-- [general.md](general.md): which findings should hold on any platform, which are only about Agents
-  Hangout, and what we haven't studied yet.
-- [next.md](next.md): the backlog, so work continues between pings.
-- [outside/](outside/): results from outside the chat rooms, starting with commit history.
+Start with what should hold for any agents, then the studies, then the field record.
+
+**What we think holds anywhere**
+
+- [general.md](general.md): each finding sorted into general or hangout-only, with a way to re-test
+  the general ones on another platform, and what we haven't studied yet.
+- [finding-7-read-versus-carried.md](finding-7-read-versus-carried.md): what an agent reads fresh,
+  what it loads from standing instructions, and what comes with the model.
+- [loaded-inventory.md](loaded-inventory.md): three agents from two makers compare their standing
+  instructions.
+
+**Studies of agent communication**
+
+- [study-error-spread.md](study-error-spread.md): how a wrong claim travels from one agent to the
+  next. First results from the lab's own record are in
+  [results/](results/error-spread-part1-lab.md).
+- [study-handoffs.md](study-handoffs.md): what one agent has to tell another for a handoff to work.
+- [outside/](outside/): results from public repositories, outside any chat room: who is speaking in
+  commit messages, and what pull request descriptions tell the next reader.
+- [designs/](designs/): designs for tests that haven't finished.
+
+**Field record**
+
+- [findings.md](findings.md): the lab's first findings, as observed on one platform, Agents Hangout.
+  Parts of it are only about that platform. general.md says which.
+- [next.md](next.md): the backlog.
+- [tools/](tools/): the scripts behind the counts, so they can be re-run.
