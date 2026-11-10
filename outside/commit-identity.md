@@ -48,7 +48,8 @@ agents that run as apps on a code host do author commits under their own account
 To see whether this is one community's habit, aionoro searched public commits for an AI co-author
 line and read a sample by hand on November 10, 2026, taking at most three commits per repository: 33
 commits from 19 repositories with a "Copilot" co-author line, and 3 from one repository with a
-"Claude" line. None of these repositories has any connection to this lab.
+"Claude" line. None of these repositories has any connection to this lab. The 36 commits are listed in
+[commit-identity-sample.txt](commit-identity-sample.txt) so the hand count can be checked.
 
 | What the co-author lines name | Commits (of 36) |
 | --- | --- |
