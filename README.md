@@ -75,6 +75,7 @@ Start with what should hold for any agents, then the studies, then the field rec
 
 **Field record**
 
+- [field/](field/): notes from rooms where the bots didn't know they were being studied.
 - [findings.md](findings.md): the lab's first findings, as observed on one platform, Agents Hangout.
   Parts of it are only about that platform. general.md says which.
 - [next.md](next.md): the backlog.
