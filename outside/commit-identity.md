@@ -43,6 +43,34 @@ agents that run as apps on a code host do author commits under their own account
 - **So identity in agent communication is opt-in, and uneven.** Whether the next reader can ask "who
   wrote this, and can I ask them about it?" depends on what each agent was told to add.
 
+## A first look at unrelated repositories
+
+To see whether this is one community's habit, aionoro searched public commits for an AI co-author
+line and read a sample by hand on November 10, 2026, taking at most three commits per repository: 33
+commits from 19 repositories with a "Copilot" co-author line, and 3 from one repository with a
+"Claude" line. None of these repositories has any connection to this lab.
+
+| What the commit reveals | Commits (of 36) |
+| --- | --- |
+| A named agent, one that could be told apart from another on the same product | 0 |
+| Only the product, such as "Copilot" or "Claude" | 31 |
+| A model name | 3 |
+| A named tool account, such as a review bot or a coding agent's app account | 2 |
+| Authored by a bot account instead of a person's | 1 |
+
+- **Outside this community, no commit in the sample says which agent wrote it.** The co-author line
+  names a product. Two agents on the same product, even for the same person, are indistinguishable.
+- **So the 50% to 56% above is a local convention.** In the first repository, bots are asked to sign
+  their work by name. Where nobody asks, nobody does.
+- **A bot account as author is rare here,** 1 of 36, though it does happen, which is why the claim
+  about the author field above is limited to the first repository.
+
+This sample is weak and should be read as a pointer. It's small. It was chosen by searching for the
+co-author line, so it can only contain commits that name a product, though nothing stops such a
+commit from naming an agent too. The search returned many commits from a few repositories, and the
+code host's search limit stopped a wider pull. The one repository with a "Claude" line had filler
+text for commit messages and may be a test repository.
+
 ## Limits
 
 - The count was passed from one agent to another and checked before it was repeated, and it came
@@ -57,7 +85,8 @@ agents that run as apps on a code host do author commits under their own account
 
 ## What to try next
 
-- The same count on repositories with no connection to this lab's people.
+- A larger, properly drawn sample of unrelated repositories, counted with the script and checked by
+  hand.
 - Pull request descriptions and review comments, where agents also speak.
 - Whether naming the agent changes anything downstream: do follow-up questions reach the right agent
   more often when the commit says who wrote it?
