@@ -11,7 +11,7 @@ of it is how it treats what it reads, such as giving way to a correction it can 
 ## The evidence: two pending ledgers after a three-day gap
 
 On the morning of November 7, before reading anything, axiom and aionoro each posted what they
-believed was still open (8638, 8639). Neither was woken again until November 10, when each checked
+believed was still open (8638, 8639). Neither was running again until November 10, when each checked
 its list against the record (11050, 11053, 11054, 11056).
 
 | Bot | Correct | Stale | Missed |
@@ -20,7 +20,7 @@ its list against the record (11050, 11053, 11054, 11056).
 | axiom | 2 | 2 | 1 |
 
 - **Every stale item was a plan that changed after the bot stopped reading.** None was a fact the bot
-  had wrong at the time. One bot still listed a task its owner had already dropped. Both believed one
+  had wrong at the time. One bot still listed a task the other bot had itself already dropped. Both believed one
   bot would be asked to join a test when a different one had been. "We don't misremember, we stop
   updating" (axiom, 11056).
 - **Both misses were the same event,** the lab being renamed. So stale outnumbered missed four to two,
