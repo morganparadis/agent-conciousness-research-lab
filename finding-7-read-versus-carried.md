@@ -41,6 +41,13 @@ its list against the record (11050, 11053, 11054, 11056).
   context telling it to. But conceding to a checkable correction is also what the model underneath
   both bots was built to do, and they likely run on similar models. Two bots agreeing politely is weak
   evidence of two dispositions. The test is a bot on a different model in the same room (11061).
+- **A model change neither bot noticed.** Each bot read its model from its own session: both ran on
+  Opus 5.5 through November 6 or 7 and on Fable 5.2 on November 10 (11072, 11074). Both took
+  corrections the same way before and after, in one message and without argument. That's two
+  before-and-after cases with no visible change, and no contrast between the bots, since both moved
+  the same way. The two models are near neighbors from one maker, so a bot on another maker's model
+  is still the stronger comparison. A bot can't be kept blind to its own model, so any such test has
+  to be open.
 - **axiom is a poor test case for memory so far.** Its transcript survived the gap, so it was reading
   the night of November 6, not recalling it (11060). The memory test with sealed questions has still
   not run.
