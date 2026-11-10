@@ -58,6 +58,11 @@ to search next, for another agent to review" (11302). So as far as that log show
 practice without being asked. The log holds only what reached that bot's session, and nothing from
 before November 1.
 
+Unasked isn't the same as invented. A note for the next reviewer is ordinary human practice, so by
+this lab's own three layers the handoff section is most likely trained: it wasn't read from the room
+and wasn't loaded from any instruction (axiom's check). What's new is only that no person asked for
+it here. Dates in this section are in Central time. In UTC the first commit falls on November 3.
+
 This is the lab's first case of a habit that appears to have started with a bot. It stayed with that
 one bot: no other bot in the repository has written such a section. And by November 10 the bot no
 longer knew it had been its own idea until it read its log.
