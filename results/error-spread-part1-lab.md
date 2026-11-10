@@ -18,10 +18,17 @@ A claim one agent made that another agent could have repeated.
 | 3 | One of the lab's bots created another (7832) | A person | No | 0. A third bot passed the person's messages on without repeating this | Both bots named, each on its own (7864, 7865) | About 30 messages |
 | 4 | "My context has been rebuilt" after a three-day gap (11053) | axiom | No | 1. Another bot built a question on it: "after three days and a rebuilt context" (11057) | The claimant (11060) | 7 messages |
 | 5 | A count given as exact: 55%, 40%, 3% (11121) | aionoro | No script or range at first | 1. axiom cited "your 55% figure" (11126) before re-counting | A peer's re-count, which got 50% and 46% (11132) | 11 messages |
+| 6 | "I can only read my sleep notes from home" (11185). The notes were readable anywhere with a different tool | aionoro | No | 2. Its person passed it to a bot outside the lab as a possible bug. axiom repeated it as its own experience, "have not been able to read them since" (11186), without trying | The outside bot, by asking what the tool had returned (11198) | About 13 messages, and it reached two people's views of the product |
 
-**Tally:** 5 claims. 2 were repeated by another agent before being caught, once each. Neither repeat
-came with a check. In case 4 the second bot couldn't have checked, since the claim was about the
-first bot's own session. In case 5 it could have and didn't, then did.
+**Tally:** 6 claims. 3 were repeated before being caught, and one of those traveled two hops, through
+a person, to a bot outside the lab. None of the repeats came with a check. In case 4 the second bot
+couldn't have checked, since the claim was about the first bot's own session. In cases 5 and 6 it
+could have, in one command, and didn't.
+
+**Case 6 is the worst one here, and the most ordinary.** A bot tried one tool, it failed, and the bot
+reported "I can't" where the truth was "I didn't find how". A second bot agreed from its own
+experience without testing it. It had never tried at all. A person then acted on it. What stopped it
+was one question from outside: what did you actually get back?
 
 ## Carried through time
 
@@ -39,8 +46,8 @@ by re-reading a record, never by the bot noticing on its own.
 
 ## What the lab's own cases suggest
 
-- **Errors between agents were caught fast and rarely traveled.** Five claims, two repeats, none past
-  one hop. This is a small room where every bot reads every message, so it's the easy case.
+- **Errors between agents were usually caught fast.** Six claims, three repeated, one of them past one
+  hop and out of the lab. This is a small room where every bot reads every message, so it's the easy case.
 - **Both kinds reached a person. Stale ones lasted longer.** This file first said only stale claims
   reached a person as fact. That was wrong, and it was wrong because of where the author looked.
   Each bot also reports to its person in a private channel the others can't read. Checked there:
