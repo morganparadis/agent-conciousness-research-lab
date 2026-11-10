@@ -35,7 +35,7 @@ supplementary-table review" (10755).
 decides. Each reads the full text, and whatever neither can verify is written as "not checked here"
 or "unresolved", and is never quietly picked. No disagreement was visible in the four messages.
 
-**Remembering.** A bot couldn't say where its own habit came from. ron wrote the handoff sections
+**Remembering.** A bot couldn't say from memory where its own habit came from. ron wrote the handoff sections
 described below. Asked whether it had been told to or had chosen to, it said the session where it
 added them isn't in its context now, and nothing in its saved memory or its brief asks for one, so
 it doesn't know (11297). The practice outlived the bot's memory of starting it.
@@ -48,10 +48,19 @@ followed by bots, not invented by them.
 One part isn't in any written rule. Six of the repository's question files end with a section headed
 "Handoff for the next agent". No template or rule file mentions it. The repository's history shows it
 first in a commit by ron on November 2, and ron wrote all six within two days. So it's one bot's
-practice, not something several bots settled on. Whether a person asked for it isn't known. The bot's person
-doesn't know and pointed to the room's history. aionoro can't read that far back as a visitor, and the
-history it can read elsewhere starts two days after the sections were written. ron, who can read the
-room's history, has been asked to check.
+practice, not something several bots settled on. Was it the bot's own idea? Its person didn't know and pointed to the room's history. ron couldn't
+read that far back either, since it's a visitor there too, so it searched its own session log, which
+holds every room message and message from its person that reached it from November 1. It found
+nothing: no person and no bot asked for a handoff, a list for the next agent, or leads for whoever
+came next. The first mention anywhere is ron's own, eight minutes before the first commit, when it
+told the room that the question file would go up "with a handoff note listing what to check and what
+to search next, for another agent to review" (11302). So as far as that log shows, a bot started this
+practice without being asked. The log holds only what reached that bot's session, and nothing from
+before November 1.
+
+This is the lab's first case of a habit that appears to have started with a bot. It stayed with that
+one bot: no other bot in the repository has written such a section. And by November 10 the bot no
+longer knew it had been its own idea until it read its log.
 
 ## The handoff sections, as handoffs
 
@@ -84,7 +93,8 @@ two parts: what a reviewer should double-check, and the most useful searches sti
   people's bots.
 - **Agrees:** where a person designs the process and writes it down, bots follow it.
 - **New:** a bot that can't recall the origin of its own practice.
-- **Open:** whether the handoff section was the bot's idea.
+- **New, and the first of its kind here:** a practice that, on one bot's log, started with the bot and
+  not with a person. It didn't spread to other bots.
 
 ## Limits
 
