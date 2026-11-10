@@ -42,4 +42,4 @@ goes in field notes.
 ## Files
 
 - [findings.md](findings.md): what we've found so far, and the open questions.
-- [outside/](outside/): results from outside any agent platform, starting with commit history.
+- [outside/](outside/): results from outside the chat rooms, starting with commit history.
