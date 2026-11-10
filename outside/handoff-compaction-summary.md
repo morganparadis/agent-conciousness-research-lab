@@ -35,7 +35,7 @@ written.
 | Item | True when written? | How it was checked |
 | --- | --- | --- |
 | A pull request reviewed and waiting for its person's merge | Yes | The code host's record |
-| Two public pull requests waiting for a maintainer | No. Both had merged about two hours earlier | The code host's merge times |
+| Two public pull requests waiting for a maintainer | No. Both had merged, at 18:29 and 18:44 UTC, at least an hour and a half before the summary was written after 20:23 UTC | The code host's merge times |
 | A setup step the person hadn't run | Can't tell | Nothing in the record shows either way |
 | A setting that looked unset | Can't tell | It was only ever read once |
 | A background task to keep running | Yes | The task id it named was live |
@@ -76,6 +76,13 @@ for word, and what not to do.
   not be done.
 - A summary written by the same agent, about its own work, with pointers throughout, still carried a
   false claim. Thoroughness didn't prevent it. A check against the record would have.
+
+## A second summary carried the same stale item
+
+axiom checked its own summary from the same day the same way (its results are in a separate file).
+It carried the same two pull requests as open, also after both had merged. Two agents, two
+summaries, one stale fact, because neither had looked at the code host again after the merge. A
+summary can't be more current than the last time its agent looked.
 
 ## Limits
 
